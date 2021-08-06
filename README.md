@@ -47,7 +47,7 @@ ln -s hd-wallet-derive/hd-wallet-derive.php derive
 
 ## Step 2 - Create Python Scripts
 
-* Next we will need to create a universal wallet script called `wallet.ipynb`. Note - That we used a Jupyter Lab notebook to run our python wallet functions. Alternatively, we can create a python `wallet.py` script to run our functions directly in terminal.    
+* Next we will need to create a universal wallet script called `wallet.ipynb`. Note - That I used a Jupyter Lab notebook to run my python wallet functions. Alternatively, we can create a python `wallet.py` script to run our functions directly in terminal.    
 
 * In a seperate file called `constants.py`, setup the following constants:
 
