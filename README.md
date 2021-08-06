@@ -24,8 +24,9 @@ The following dependencies are required for this assignment:
 
 ## Step 1 - HD-WALLET-DERIVE INSTALLATION
 The first step is to create a project directory called `wallet` to store all the files required to create your `HD-Wallet`. Once the file is created navigate to it in terminal and follow these steps:
- 
 
+* Clone the `hd-wallet-derive` tool into this folder and install it using the HD Wallet Derive Installation Guide
+ 
 * Create a symlink called `derive` for the `hd-wallet-derive/hd-wallet-derive.php` script. 
 
 * Next we can run the following code
@@ -46,7 +47,7 @@ ln -s hd-wallet-derive/hd-wallet-derive.php derive
 
 ## Step 2 - Create Python Scripts
 
-* Next we will need to create a universal wallet script called `wallet.py` 
+* Next we will need to create a universal wallet script called `wallet.ipynb`. Note - That we used a Jupyter Lab notebook to run our python wallet functions. Alternatively, we can create a python `wallet.py` script to run our functions directly in terminal.    
 
 * In a seperate file called `constants.py`, setup the following constants:
 
