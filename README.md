@@ -16,10 +16,10 @@ The following dependencies are required for this assignment:
 
 **Dependencies List:**
 
-* PHP must be installed on your operating system.
-* You will need to clone the hd-wallet-derive tool.
-* bit Python Bitcoin library.
-* web3.py Python Ethereum library.
+* `PHP` must be installed on your operating system.
+* You will need to clone the `hd-wallet-derive` tool.
+* `bit` Python Bitcoin library.
+* `web3.py` Python Ethereum library.
 
 
 ## Step 1 - HD-WALLET-DERIVE INSTALLATION
