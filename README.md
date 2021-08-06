@@ -55,25 +55,24 @@ ln -s hd-wallet-derive/hd-wallet-derive.php derive
     * `ETH = eth`
     * `BTCTEST = btc-test`
 
-## Step 3 - Create Python Scripts
+## Step 3 - Generate New Mnemonic
 
 * Generate a new 12 word mnemonic using `hd-wallet-derive` or by using this https://iancoleman.io/bip39/.
 
-
-* Set this mnemonic as an environment variable by storing it in a `.env` file and importing it into your `wallet.py`.
+* Set this mnemonic as an environment variable by storing it in a `.env` file and importing it into your `wallet.ipynb` notebook.
 
 ## Step 4 - Derive Wallets Function
-Create a function called `derive_wallets`. See jupyter lab script.
+Create a function called `derive_wallets`. See `wallet.ipyn`.
 
 
 ## Step 5 - Account Object Function
-Create a function called `priv_key_to_account` that converts privkey strings to account objects. See jupyter lab script.
+Create a function called `priv_key_to_account` that converts privkey strings to account objects. See `wallet.ipyn`.
 
 ## Step 6 - Unsigned Transaction Function
-Create a function called `create_tx` that creates an unsigned transaction appropriate metadata. See jupyter lab script.
+Create a function called `create_tx` that creates an unsigned transaction appropriate metadata. See `wallet.ipyn`.
 
 ## Step 7 - Send & Sign Transaction Function
-Create a function called `send_tx` that calls `create_tx`, signs and sends the transaction. See jupyter lab script.
+Create a function called `send_tx` that calls `create_tx`, signs and sends the transaction. See `wallet.ipyn`.
 
 
 ## BTC Transaction
